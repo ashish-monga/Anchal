@@ -47,7 +47,16 @@
 
     /* portrait */
     .hero-right{border-radius:12px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,0.08)}
-    .hero-right img{display:block;width:100%;height:75%;object-fit:cover;min-height:360px}
+    .hero-right img{
+      display:block;
+      width:100%;
+      height:75%;
+      object-fit:cover;
+      min-height:360px;
+      /* Zoom animation */
+      animation: zoomInOut 14s ease-in-out infinite;
+      transform-origin:center;
+    }
 
     /* GALLERY */
     .gallery{margin-top:40px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
@@ -59,7 +68,7 @@
       display:block;
       box-shadow:0 8px 18px rgba(0,0,0,0.08);
       /* Zoom animation */
-      animation: zoomInOut 12s ease-in-out infinite;
+      animation: zoomInOut 14s ease-in-out infinite;
       transform-origin:center;
     }
 
@@ -195,7 +204,7 @@
         <strong style="color:var(--ruby)">Private Appointments</strong>
         <div style="margin-top:10px">Visits Harnam Jewellers Showroom (Poonam Chamber) 2645 Bank Street, Karol Bagh, Delhi.<br><br>
           Private viewings also in London / Dubai / Canada / NewYork by prior appointment only.<br><br>Insured international shipping available.</div>
-        <div style="margin-top:18px"><strong>Email</strong><div>info@harnamjewellers.com</div></div>
+        <div style="margin-top:18px"><strong>Email</strong><div>Ansh.Kathuria@harnamjewellers.com</div></div>
       </div>
     </section>
 
